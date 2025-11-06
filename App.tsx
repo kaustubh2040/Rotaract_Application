@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import AdminDashboard from './components/AdminDashboard';
+import AdminDashboard from "./components/AdminDashboard.tsx";
 import MemberDashboard from './components/MemberDashboard';
 import Header from './components/common/Header';
 import { useClubData, ClubDataProvider, ClubDataContext } from './hooks/useClubData';
