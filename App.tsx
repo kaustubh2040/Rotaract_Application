@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import AdminDashboard from "./components/AdminDashboard.tsx";
-import MemberDashboard from './components/MemberDashboard';
+import MemberDashboard from './components/MemberDashboard.tsx';
 import Header from './components/common/Header';
 import { useClubData, ClubDataProvider, ClubDataContext } from './hooks/useClubData';
 import type { User } from './types';
